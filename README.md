@@ -182,13 +182,13 @@ done
 1. List Nodes:
 
 ```yml
-./ssh_cli.sh -list
+./ssh_cli.sh -list        # Default demo file  or update this file as per your Cluster Nodes IPs
 ```
 
 2. Specify a Custom Config File:
 
 ```yml
-./ssh_cli.sh -c custom_config.yaml -list
+./ssh_cli.sh -c custom_config.yaml -list          # OR create new file ,also update in main script
 ```
 
 3. View Help:
