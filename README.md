@@ -176,6 +176,42 @@ done
 
 
 
+## Final Testing
+ **Run the script as follows:**
+
+1. List Nodes:
+
+```yml
+./ssh_cli.sh -list
+```
+
+2. Specify a Custom Config File:
+
+```yml
+./ssh_cli.sh -c custom_config.yaml -list
+```
+
+3. View Help:
+
+```yml
+./ssh_cli.sh -h
+```
+ 
+ *If all prerequisites are met, the script should execute without errors.*
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+
 ## Use Cases
 1. Cluster Node Monitoring
 
