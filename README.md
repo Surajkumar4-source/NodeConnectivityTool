@@ -202,8 +202,29 @@ done
 
 
 
+<br>
 
 
+
+# Demo How Script Work
+
+   - Example config.yaml
+
+```yml
+compute_nodes:
+  - user1@192.168.0.1
+  - user2@192.168.0.2
+```
+
+  - Output Example
+
+```yml
+
+HOSTNAME[SSH Status Check]
+└──user1@192.168.0.1: Successfully Executed
+└──user2@192.168.0.2: Failed to Connect
+
+```
 
 
 
