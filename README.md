@@ -176,7 +176,7 @@ done
 
 
 
-## Final Testing
+## How To Use?
  **Run the script as follows:**
 
 1. List Nodes:
