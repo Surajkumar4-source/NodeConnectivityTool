@@ -179,33 +179,33 @@ done
 ## Use Cases
 1. Cluster Node Monitoring
 
-  - Determine which nodes in a cluster are operational and ready for tasks.
-  - Helps administrators quickly identify connectivity issues, reducing troubleshooting time.
+     - Determine which nodes in a cluster are operational and ready for tasks.
+     - Helps administrators quickly identify connectivity issues, reducing troubleshooting time.
 
 2. Pre-deployment Checks
 
-  - Verify SSH connectivity to all nodes before deploying distributed applications or workloads.
-  - Ensures that compute nodes are properly configured and reachable.
+    - Verify SSH connectivity to all nodes before deploying distributed applications or workloads.
+    - Ensures that compute nodes are properly configured and reachable.
 
 3. Configuration Validation
 
-  - Test if newly added nodes to a cluster are accessible via SSH.
-  - Validate changes to network or firewall settings.
+    - Test if newly added nodes to a cluster are accessible via SSH.
+    - Validate changes to network or firewall settings.
 
 4. Automated Maintenance
 
-  - Perform automated maintenance tasks (e.g., file transfers, script execution) by ensuring connectivity in advance.
-  - Helps in scenarios where scripts require successful SSH communication.
+    - Perform automated maintenance tasks (e.g., file transfers, script execution) by ensuring connectivity in advance.
+    - Helps in scenarios where scripts require successful SSH communication.
 
 5. Disaster Recovery
 
-  - Quickly identify unreachable nodes during network outages or cluster failures.
-  - Prioritize recovery actions based on node accessibility.
+    - Quickly identify unreachable nodes during network outages or cluster failures.
+    - Prioritize recovery actions based on node accessibility.
 
 6. Integration with Other Tools
 
-  - Serve as a base for more complex tools that require periodic node health checks or status reporting.
-  - Output can be integrated with monitoring systems like Prometheus or custom dashboards.
+    - Serve as a base for more complex tools that require periodic node health checks or status reporting.
+    - Output can be integrated with monitoring systems like Prometheus or custom dashboards.
 
 ### Why Use This Script?
    - Simplicity: No additional software is required; it uses standard Bash utilities.
